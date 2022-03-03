@@ -209,6 +209,7 @@ class PlayState extends MusicBeatState
 	var vcrDistortionGame:VCRDistortionEffect;
 	var phillyTrain:FlxSprite;
 	var trainSound:FlxSound;
+	var errorwindow:Int = 0;
 
 	var limo:FlxSprite;
 	var grpLimoDancers:FlxTypedGroup<BackgroundDancer>;
@@ -2523,8 +2524,151 @@ class PlayState extends MusicBeatState
 							//if(!daNote.isSustainNote){
 
 							var anim = "";
+							if (SONG.song.toLowerCase() == 'mail')
 							switch (Math.abs(daNote.noteData))
-							{
+							{		//forgive my mess of a code, i haven't coded in so long, really sorry how unwell optimized this is		
+							case 0:
+								//dad.playAnim('singLEFT' + altAnim, true);
+								anim='singLEFT' + altAnim;
+								errorwindow = FlxG.random.int(1, 15);
+								if (errorwindow <= 1){
+									FlxG.sound.play(Paths.sound('error'));
+									errorwindow = 2;								
+									//totally didn't steal this code from Bob's Onslaught
+									var randomthing:FlxSprite = new FlxSprite(FlxG.random.int(300, 1077), FlxG.random.int(0, 622));
+									randomthing.frames = Paths.getSparrowAtlas ('cmyk/errors', 'extras');
+									randomthing.animation.addByPrefix('error1', 'error1000', 24, false);
+									randomthing.animation.addByPrefix('error2', 'error2000', 24, false);
+									randomthing.animation.addByPrefix('error3', 'error3000', 24, false);
+									randomthing.animation.addByPrefix('error4', 'error4000', 24, false);
+									randomthing.animation.addByPrefix('error5', 'error5000', 24, false);
+									randomthing.animation.addByPrefix('error6', 'error6000', 24, false);
+									randomthing.animation.addByPrefix('error7', 'error7000', 24, false);
+									randomthing.animation.addByPrefix('error8', 'error8000', 24, false);
+									randomthing.animation.addByPrefix('error9', 'error9000', 24, false);
+									randomthing.animation.addByPrefix('error10', 'error10000', 24, false);
+									randomthing.animation.addByPrefix('error11', 'error11000', 24, false);									
+									randomthing.updateHitbox();
+
+									randomthing.antialiasing = true;
+
+									add(randomthing);
+									randomthing.cameras = [camHUD];
+									randomthing.animation.play('error' + FlxG.random.int(1,11));
+									new FlxTimer().start(10 , function(tmr:FlxTimer)
+									{
+										remove(randomthing);
+									});
+									//MESSY CODE LMAO
+								}
+							
+							case 1:
+								//dad.playAnim('singDOWN' + altAnim, true);
+								anim='singDOWN' + altAnim;
+								errorwindow = FlxG.random.int(1, 15);
+								if (errorwindow <= 1){
+									FlxG.sound.play(Paths.sound('error'));
+									errorwindow = 2;
+									//totally didn't steal this code from Bob's Onslaught
+									var randomthing:FlxSprite = new FlxSprite(FlxG.random.int(300, 1077), FlxG.random.int(0, 622));
+									randomthing.frames = Paths.getSparrowAtlas ('cmyk/errors', 'extras');
+									randomthing.animation.addByPrefix('error1', 'error1000', 24, false);
+									randomthing.animation.addByPrefix('error2', 'error2000', 24, false);
+									randomthing.animation.addByPrefix('error3', 'error3000', 24, false);
+									randomthing.animation.addByPrefix('error4', 'error4000', 24, false);
+									randomthing.animation.addByPrefix('error5', 'error5000', 24, false);
+									randomthing.animation.addByPrefix('error6', 'error6000', 24, false);
+									randomthing.animation.addByPrefix('error7', 'error7000', 24, false);
+									randomthing.animation.addByPrefix('error8', 'error8000', 24, false);
+									randomthing.animation.addByPrefix('error9', 'error9000', 24, false);
+									randomthing.animation.addByPrefix('error10', 'error10000', 24, false);
+									randomthing.animation.addByPrefix('error11', 'error11000', 24, false);									
+									randomthing.updateHitbox();
+
+									randomthing.antialiasing = true;
+
+									add(randomthing);
+									randomthing.cameras = [camHUD];
+									randomthing.animation.play('error' + FlxG.random.int(1,11));
+									new FlxTimer().start(10 , function(tmr:FlxTimer)
+									{
+										remove(randomthing);
+									});
+									//MESSY CODE LMAO	
+								}
+							case 2:
+								//dad.playAnim('singUP' + altAnim, true);
+								anim='singUP' + altAnim;
+								errorwindow = FlxG.random.int(1, 15);
+								if (errorwindow <= 1){
+									FlxG.sound.play(Paths.sound('error'));
+									errorwindow = 2;
+									//totally didn't steal this code from Bob's Onslaught
+									var randomthing:FlxSprite = new FlxSprite(FlxG.random.int(300, 1077), FlxG.random.int(0, 622));
+									randomthing.frames = Paths.getSparrowAtlas ('cmyk/errors', 'extras');
+									randomthing.animation.addByPrefix('error1', 'error1000', 24, false);
+									randomthing.animation.addByPrefix('error2', 'error2000', 24, false);
+									randomthing.animation.addByPrefix('error3', 'error3000', 24, false);
+									randomthing.animation.addByPrefix('error4', 'error4000', 24, false);
+									randomthing.animation.addByPrefix('error5', 'error5000', 24, false);
+									randomthing.animation.addByPrefix('error6', 'error6000', 24, false);
+									randomthing.animation.addByPrefix('error7', 'error7000', 24, false);
+									randomthing.animation.addByPrefix('error8', 'error8000', 24, false);
+									randomthing.animation.addByPrefix('error9', 'error9000', 24, false);
+									randomthing.animation.addByPrefix('error10', 'error10000', 24, false);
+									randomthing.animation.addByPrefix('error11', 'error11000', 24, false);									
+									randomthing.updateHitbox();
+
+									randomthing.antialiasing = true;
+
+									add(randomthing);
+									randomthing.cameras = [camHUD];
+									randomthing.animation.play('error' + FlxG.random.int(1,11));
+									new FlxTimer().start(10 , function(tmr:FlxTimer)
+									{
+										remove(randomthing);
+									});
+									//MESSY CODE LMAO
+								}
+							case 3:
+								//dad.playAnim('singRIGHT' + altAnim, true);
+								anim='singRIGHT' + altAnim;
+								errorwindow = FlxG.random.int(1, 15);
+								if (errorwindow <= 1){
+									FlxG.sound.play(Paths.sound('error'));
+									errorwindow = 2;
+									//totally didn't steal this code from Bob's Onslaught
+									var randomthing:FlxSprite = new FlxSprite(FlxG.random.int(300, 1077), FlxG.random.int(0, 622));
+									randomthing.frames = Paths.getSparrowAtlas ('cmyk/errors', 'extras');
+									randomthing.animation.addByPrefix('error1', 'error1000', 24, false);
+									randomthing.animation.addByPrefix('error2', 'error2000', 24, false);
+									randomthing.animation.addByPrefix('error3', 'error3000', 24, false);
+									randomthing.animation.addByPrefix('error4', 'error4000', 24, false);
+									randomthing.animation.addByPrefix('error5', 'error5000', 24, false);
+									randomthing.animation.addByPrefix('error6', 'error6000', 24, false);
+									randomthing.animation.addByPrefix('error7', 'error7000', 24, false);
+									randomthing.animation.addByPrefix('error8', 'error8000', 24, false);
+									randomthing.animation.addByPrefix('error9', 'error9000', 24, false);
+									randomthing.animation.addByPrefix('error10', 'error10000', 24, false);
+									randomthing.animation.addByPrefix('error11', 'error11000', 24, false);									
+									randomthing.updateHitbox();
+
+									randomthing.antialiasing = true;
+
+									add(randomthing);
+									randomthing.cameras = [camHUD];
+									randomthing.animation.play('error' + FlxG.random.int(1,11));
+									new FlxTimer().start(10 , function(tmr:FlxTimer)
+									{
+										remove(randomthing);
+									});
+									//MESSY CODE LMAO
+								}
+							}
+						
+							else
+								switch (Math.abs(daNote.noteData))
+							{				
 							case 0:
 								//dad.playAnim('singLEFT' + altAnim, true);
 								anim='singLEFT' + altAnim;
@@ -2538,6 +2682,7 @@ class PlayState extends MusicBeatState
 								//dad.playAnim('singRIGHT' + altAnim, true);
 								anim='singRIGHT' + altAnim;
 							}
+							
 							if(opponent.animation.getByName(anim)==null){
 								anim = anim.replace(altAnim,"");
 							}
@@ -3226,6 +3371,33 @@ class PlayState extends MusicBeatState
 
 	function showMiss(direction:Int){
 		boyfriend.holding=false;
+		if (SONG.song.toLowerCase() == 'mail'){
+			FlxG.sound.play(Paths.sound('error'));								
+			//totally didn't steal this code from Bob's Onslaught
+			var randomthing:FlxSprite = new FlxSprite(FlxG.random.int(300, 1077), FlxG.random.int(0, 622));
+			randomthing.frames = Paths.getSparrowAtlas ('cmyk/errors', 'extras');
+			randomthing.animation.addByPrefix('error1', 'error1000', 24, false);
+			randomthing.animation.addByPrefix('error2', 'error2000', 24, false);
+			randomthing.animation.addByPrefix('error3', 'error3000', 24, false);
+			randomthing.animation.addByPrefix('error4', 'error4000', 24, false);
+			randomthing.animation.addByPrefix('error5', 'error5000', 24, false);
+			randomthing.animation.addByPrefix('error6', 'error6000', 24, false);
+			randomthing.animation.addByPrefix('error7', 'error7000', 24, false);
+			randomthing.animation.addByPrefix('error8', 'error8000', 24, false);
+			randomthing.animation.addByPrefix('error9', 'error9000', 24, false);
+			randomthing.animation.addByPrefix('error10', 'error10000', 24, false);
+			randomthing.animation.addByPrefix('error11', 'error11000', 24, false);									
+			randomthing.updateHitbox();
+
+			randomthing.antialiasing = true;
+
+			add(randomthing);
+			randomthing.cameras = [camHUD];
+			randomthing.animation.play('error' + FlxG.random.int(1,11));
+			new FlxTimer().start(10 , function(tmr:FlxTimer)
+			{
+				remove(randomthing);
+			});
 		switch (direction)
 		{
 			case 0:
@@ -3237,6 +3409,21 @@ class PlayState extends MusicBeatState
 			case 3:
 				boyfriend.playAnim('singRIGHTmiss', true);
 		}
+	
+	}
+
+	else
+			switch (direction)
+		{
+			case 0:
+				boyfriend.playAnim('singLEFTmiss', true);
+			case 1:
+				boyfriend.playAnim('singDOWNmiss', true);
+			case 2:
+				boyfriend.playAnim('singUPmiss', true);
+			case 3:
+				boyfriend.playAnim('singRIGHTmiss', true);
+		}	
 	}
 
 	function noteMiss(direction:Int = 1):Void

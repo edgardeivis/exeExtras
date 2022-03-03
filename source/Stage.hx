@@ -39,6 +39,7 @@ class Stage extends FlxTypedGroup<FlxBasic> {
     "fresh"=>"stage",
     "dadbattle"=>"stage",
     "tutorial"=>"stage",
+    "plastos"=>"hills",    
   ];
 
   public static var stageNames:Array<String> = [
@@ -50,6 +51,7 @@ class Stage extends FlxTypedGroup<FlxBasic> {
     "mallEvil",
     "school",
     "schoolEvil",
+    "hills",    
     "blank"
   ];
 
@@ -509,6 +511,50 @@ class Stage extends FlxTypedGroup<FlxBasic> {
       case 'blank':
         centerX = 400;
         centerY = 130;
+      case 'hills':
+        defaultCamZoom = 0.6;
+        curStage = 'hills';
+        var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('plastos/back','extras'));
+        bg.antialiasing = true;
+        bg.scrollFactor.set(0.6, 0.6);
+        bg.active = false;
+        add(bg);
+
+        var stageFront:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('plastos/front','extras'));
+//        stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
+        stageFront.updateHitbox();
+        stageFront.antialiasing = true;
+        stageFront.scrollFactor.set(0.9, 0.9);
+        stageFront.active = false;
+        add(stageFront);
+
+        centerX = bg.getMidpoint().x;
+        centerY = bg.getMidpoint().y;
+        
+         var vignette:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('vignette','extras'));
+         vignette.updateHitbox();
+         vignette.antialiasing = true;
+         vignette.scrollFactor.set(0, 0);
+         vignette.active = false;
+         vignette.scale.set(2, 2);
+
+
+        foreground.add(vignette);       
+        case 'paint':
+          defaultCamZoom = 0.6;
+          curStage = 'paint';
+          var bg:FlxSprite = new FlxSprite(0, 100).loadGraphic(Paths.image('cmyk/paint','extras'));
+          bg.antialiasing = true;
+          bg.scale.set(2, 2);
+          bg.scrollFactor.set(0.6, 0.6);
+          bg.active = false;
+          add(bg);
+
+  
+          centerX = bg.getMidpoint().x;
+          centerY = bg.getMidpoint().y;
+
+                  
       default:
         defaultCamZoom = 1;
         curStage = 'stage';

@@ -24,35 +24,35 @@ class EngineData {
     new WeekData("Funkin' Virgin",0,'',[
       new SongData("Tutorial","gf",0),
     ]),
-    new WeekData("DADDY DEAREST",1,'dad',[
-      "Bopeebo",
-      "Fresh",
-      "Dadbattle"
-    ]),
-    new WeekData("Spooky Month",2,'spooky',[
-      "Spookeez",
-      "South",
-      new SongData("Monster","monster",2)
-    ]),
-    new WeekData("Pico",3,'pico',[
-      "Pico",
-      new SongData("Philly Nice","pico",3,"philly-nice"),
-      "Blammed"
-    ]),
-    new WeekData("MOMMY MUST MURDER",4,'mom',[
-      new SongData("Satin Panties","mom",4,"satin-panties"),
-      "High",
-      "MILF"
-    ]),
-    new WeekData("RED SNOW",5,'parents-christmas',[
-      "Cocoa",
-      "Eggnog",
-      new SongData("Winter Horrorland","monster",5,"winter-horrorland"),
-    ]),
-    new WeekData("hating simulator ft. moawling",6,'senpai',[
-      "Senpai",
-      "Roses",
-      new SongData("Thorns","spirit",6),
+  //  new WeekData("DADDY DEAREST",1,'dad',[
+  //    "Bopeebo",
+  //    "Fresh",
+  //    "Dadbattle"
+  //  ]),
+  //  new WeekData("Spooky Month",2,'spooky',[
+  //    "Spookeez",
+  //    "South",
+  //    new SongData("Monster","monster",2)
+  //  ]),
+  //  new WeekData("Pico",3,'pico',[
+  //    "Pico",
+ //     new SongData("Philly Nice","pico",3,"philly-nice"),
+   //   "Blammed"
+  //  ]),
+  // new WeekData("MOMMY MUST MURDER",4,'mom',[
+   //   new SongData("Satin Panties","mom",4,"satin-panties"),
+    //  "High",
+     // "MILF"
+    //]),
+  //  new WeekData("RED SNOW",5,'parents-christmas',[
+  //    "Cocoa",
+  //    "Eggnog",
+  //    new SongData("Winter Horrorland","monster",5,"winter-horrorland"),
+   // ]),
+    new WeekData("testweek",1,'senpai',[
+      "Plastos",
+      "Mail",
+     new SongData("Thorns","spirit",6),
     ]),
   ];
 }

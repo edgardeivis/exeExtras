@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="windowserroes.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="error10000" x="1880" y="522" width="143" height="66" frameX="-32" frameY="-15" frameWidth="208" frameHeight="96"/>
+	<SubTexture name="error10001" x="10" y="473" width="208" height="96"/>
+	<SubTexture name="error10002" x="10" y="579" width="188" height="86" frameX="-10" frameY="-5" frameWidth="208" frameHeight="96"/>
+	<SubTexture name="error10003" x="10" y="579" width="188" height="86" frameX="-10" frameY="-5" frameWidth="208" frameHeight="96"/>
+	<SubTexture name="error10004" x="592" y="581" width="181" height="83" frameX="-13" frameY="-6" frameWidth="208" frameHeight="96"/>
+	<SubTexture name="error10005" x="592" y="581" width="181" height="83" frameX="-13" frameY="-6" frameWidth="208" frameHeight="96"/>
+	<SubTexture name="error10006" x="592" y="581" width="181" height="83" frameX="-13" frameY="-6" frameWidth="208" frameHeight="96"/>
+	<SubTexture name="error10007" x="592" y="581" width="181" height="83" frameX="-13" frameY="-6" frameWidth="208" frameHeight="96"/>
+	<SubTexture name="error100000" x="1083" y="622" width="172" height="80" frameX="-22" frameY="-9" frameWidth="216" frameHeight="99"/>
+	<SubTexture name="error100001" x="649" y="472" width="216" height="99"/>
+	<SubTexture name="error100002" x="397" y="149" width="198" height="91" frameX="-9" frameY="-4" frameWidth="216" frameHeight="99"/>
+	<SubTexture name="error100003" x="397" y="149" width="198" height="91" frameX="-9" frameY="-4" frameWidth="216" frameHeight="99"/>
+	<SubTexture name="error100004" x="400" y="581" width="182" height="83" frameX="-17" frameY="-8" frameWidth="216" frameHeight="99"/>
+	<SubTexture name="error100005" x="400" y="581" width="182" height="83" frameX="-17" frameY="-8" frameWidth="216" frameHeight="99"/>
+	<SubTexture name="error100006" x="400" y="581" width="182" height="83" frameX="-17" frameY="-8" frameWidth="216" frameHeight="99"/>
+	<SubTexture name="error100007" x="400" y="581" width="182" height="83" frameX="-17" frameY="-8" frameWidth="216" frameHeight="99"/>
+	<SubTexture name="error110000" x="228" y="495" width="236" height="76" frameX="-87" frameY="-27" frameWidth="411" frameHeight="131"/>
+	<SubTexture name="error110001" x="1174" y="140" width="411" height="131"/>
+	<SubTexture name="error110002" x="1595" y="140" width="389" height="124" frameX="-11" frameY="-4" frameWidth="411" frameHeight="131"/>
+	<SubTexture name="error110003" x="1595" y="140" width="389" height="124" frameX="-11" frameY="-4" frameWidth="411" frameHeight="131"/>
+	<SubTexture name="error110004" x="10" y="149" width="377" height="120" frameX="-17" frameY="-6" frameWidth="411" frameHeight="131"/>
+	<SubTexture name="error110005" x="10" y="149" width="377" height="120" frameX="-17" frameY="-6" frameWidth="411" frameHeight="131"/>
+	<SubTexture name="error110006" x="10" y="149" width="377" height="120" frameX="-17" frameY="-6" frameWidth="411" frameHeight="131"/>
+	<SubTexture name="error110007" x="10" y="149" width="377" height="120" frameX="-17" frameY="-6" frameWidth="411" frameHeight="131"/>
+	<SubTexture name="error20000" x="1083" y="551" width="268" height="61" frameX="-60" frameY="-13" frameWidth="390" frameHeight="88"/>
+	<SubTexture name="error20001" x="954" y="281" width="390" height="88"/>
+	<SubTexture name="error20002" x="10" y="379" width="375" height="84" frameX="-7" frameY="-2" frameWidth="390" frameHeight="88"/>
+	<SubTexture name="error20003" x="10" y="379" width="375" height="84" frameX="-7" frameY="-2" frameWidth="390" frameHeight="88"/>
+	<SubTexture name="error20004" x="801" y="379" width="367" height="83" frameX="-11" frameY="-2" frameWidth="390" frameHeight="88"/>
+	<SubTexture name="error20005" x="801" y="379" width="367" height="83" frameX="-11" frameY="-2" frameWidth="390" frameHeight="88"/>
+	<SubTexture name="error20006" x="801" y="379" width="367" height="83" frameX="-11" frameY="-2" frameWidth="390" frameHeight="88"/>
+	<SubTexture name="error20007" x="801" y="379" width="367" height="83" frameX="-11" frameY="-2" frameWidth="390" frameHeight="88"/>
+	<SubTexture name="error30000" x="649" y="385" width="130" height="73" frameX="-20" frameY="-11" frameWidth="172" frameHeight="96"/>
+	<SubTexture name="error30001" x="1698" y="522" width="172" height="96"/>
+	<SubTexture name="error30002" x="1539" y="628" width="156" height="86" frameX="-8" frameY="-5" frameWidth="172" frameHeight="96"/>
+	<SubTexture name="error30003" x="1539" y="628" width="156" height="86" frameX="-8" frameY="-5" frameWidth="172" frameHeight="96"/>
+	<SubTexture name="error30004" x="1871" y="628" width="150" height="83" frameX="-10" frameY="-6" frameWidth="172" frameHeight="96"/>
+	<SubTexture name="error30005" x="1871" y="628" width="150" height="83" frameX="-10" frameY="-6" frameWidth="172" frameHeight="96"/>
+	<SubTexture name="error30006" x="1871" y="628" width="150" height="83" frameX="-10" frameY="-6" frameWidth="172" frameHeight="96"/>
+	<SubTexture name="error30007" x="1871" y="628" width="150" height="83" frameX="-10" frameY="-6" frameWidth="172" frameHeight="96"/>
+	<SubTexture name="error40000" x="474" y="495" width="160" height="67" frameX="-34" frameY="-14" frameWidth="229" frameHeight="96"/>
+	<SubTexture name="error40001" x="1551" y="413" width="229" height="96"/>
+	<SubTexture name="error40002" x="1354" y="281" width="210" height="88" frameX="-9" frameY="-4" frameWidth="229" frameHeight="96"/>
+	<SubTexture name="error40003" x="1354" y="281" width="210" height="88" frameX="-9" frameY="-4" frameWidth="229" frameHeight="96"/>
+	<SubTexture name="error40004" x="875" y="550" width="198" height="83" frameX="-15" frameY="-6" frameWidth="229" frameHeight="96"/>
+	<SubTexture name="error40005" x="875" y="550" width="198" height="83" frameX="-15" frameY="-6" frameWidth="229" frameHeight="96"/>
+	<SubTexture name="error40006" x="875" y="550" width="198" height="83" frameX="-15" frameY="-6" frameWidth="229" frameHeight="96"/>
+	<SubTexture name="error40007" x="875" y="550" width="198" height="83" frameX="-15" frameY="-6" frameWidth="229" frameHeight="96"/>
+	<SubTexture name="error50000" x="875" y="472" width="305" height="68" frameX="-141" frameY="-30" frameWidth="588" frameHeight="129"/>
+	<SubTexture name="error50001" x="10" y="10" width="588" height="129"/>
+	<SubTexture name="error50002" x="608" y="10" width="556" height="121" frameX="-15" frameY="-4" frameWidth="588" frameHeight="129"/>
+	<SubTexture name="error50003" x="608" y="10" width="556" height="121" frameX="-15" frameY="-4" frameWidth="588" frameHeight="129"/>
+	<SubTexture name="error50004" x="1174" y="10" width="548" height="120" frameX="-19" frameY="-4" frameWidth="588" frameHeight="129"/>
+	<SubTexture name="error50005" x="1174" y="10" width="548" height="120" frameX="-19" frameY="-4" frameWidth="588" frameHeight="129"/>
+	<SubTexture name="error50006" x="1174" y="10" width="548" height="120" frameX="-19" frameY="-4" frameWidth="588" frameHeight="129"/>
+	<SubTexture name="error50007" x="1174" y="10" width="548" height="120" frameX="-19" frameY="-4" frameWidth="588" frameHeight="129"/>
+	<SubTexture name="error60000" x="1190" y="472" width="298" height="69" frameX="-47" frameY="-10" frameWidth="393" frameHeight="90"/>
+	<SubTexture name="error60001" x="10" y="279" width="393" height="90"/>
+	<SubTexture name="error60002" x="413" y="289" width="378" height="86" frameX="-7" frameY="-2" frameWidth="393" frameHeight="90"/>
+	<SubTexture name="error60003" x="413" y="289" width="378" height="86" frameX="-7" frameY="-2" frameWidth="393" frameHeight="90"/>
+	<SubTexture name="error60004" x="1178" y="379" width="363" height="83" frameX="-14" frameY="-3" frameWidth="393" frameHeight="90"/>
+	<SubTexture name="error60005" x="1178" y="379" width="363" height="83" frameX="-14" frameY="-3" frameWidth="393" frameHeight="90"/>
+	<SubTexture name="error60006" x="1178" y="379" width="363" height="83" frameX="-14" frameY="-3" frameWidth="393" frameHeight="90"/>
+	<SubTexture name="error60007" x="1178" y="379" width="363" height="83" frameX="-14" frameY="-3" frameWidth="393" frameHeight="90"/>
+	<SubTexture name="error70000" x="801" y="289" width="136" height="74" frameX="-30" frameY="-15" frameWidth="196" frameHeight="105"/>
+	<SubTexture name="error70001" x="954" y="141" width="196" height="105"/>
+	<SubTexture name="error70002" x="1361" y="616" width="168" height="89" frameX="-14" frameY="-8" frameWidth="196" frameHeight="105"/>
+	<SubTexture name="error70003" x="1361" y="616" width="168" height="89" frameX="-14" frameY="-8" frameWidth="196" frameHeight="105"/>
+	<SubTexture name="error70004" x="1705" y="628" width="156" height="83" frameX="-20" frameY="-11" frameWidth="196" frameHeight="105"/>
+	<SubTexture name="error70005" x="1705" y="628" width="156" height="83" frameX="-20" frameY="-11" frameWidth="196" frameHeight="105"/>
+	<SubTexture name="error70006" x="1705" y="628" width="156" height="83" frameX="-20" frameY="-11" frameWidth="196" frameHeight="105"/>
+	<SubTexture name="error70007" x="1705" y="628" width="156" height="83" frameX="-20" frameY="-11" frameWidth="196" frameHeight="105"/>
+	<SubTexture name="error80000" x="395" y="385" width="244" height="100" frameX="-46" frameY="-19" frameWidth="336" frameHeight="138"/>
+	<SubTexture name="error80001" x="608" y="141" width="336" height="138"/>
+	<SubTexture name="error80002" x="1595" y="274" width="312" height="129" frameX="-12" frameY="-4" frameWidth="336" frameHeight="138"/>
+	<SubTexture name="error80003" x="1595" y="274" width="312" height="129" frameX="-12" frameY="-4" frameWidth="336" frameHeight="138"/>
+	<SubTexture name="error80004" x="1732" y="10" width="292" height="120" frameX="-22" frameY="-9" frameWidth="336" frameHeight="138"/>
+	<SubTexture name="error80005" x="1732" y="10" width="292" height="120" frameX="-22" frameY="-9" frameWidth="336" frameHeight="138"/>
+	<SubTexture name="error80006" x="1732" y="10" width="292" height="120" frameX="-22" frameY="-9" frameWidth="336" frameHeight="138"/>
+	<SubTexture name="error80007" x="1732" y="10" width="292" height="120" frameX="-22" frameY="-9" frameWidth="336" frameHeight="138"/>
+	<SubTexture name="error90000" x="783" y="643" width="150" height="70" frameX="-33" frameY="-14" frameWidth="216" frameHeight="99"/>
+	<SubTexture name="error90001" x="1790" y="413" width="216" height="99"/>
+	<SubTexture name="error90002" x="1498" y="519" width="190" height="87" frameX="-13" frameY="-6" frameWidth="216" frameHeight="99"/>
+	<SubTexture name="error90003" x="1498" y="519" width="190" height="87" frameX="-13" frameY="-6" frameWidth="216" frameHeight="99"/>
+	<SubTexture name="error90004" x="208" y="581" width="182" height="83" frameX="-17" frameY="-8" frameWidth="216" frameHeight="99"/>
+	<SubTexture name="error90005" x="208" y="581" width="182" height="83" frameX="-17" frameY="-8" frameWidth="216" frameHeight="99"/>
+	<SubTexture name="error90006" x="208" y="581" width="182" height="83" frameX="-17" frameY="-8" frameWidth="216" frameHeight="99"/>
+	<SubTexture name="error90007" x="208" y="581" width="182" height="83" frameX="-17" frameY="-8" frameWidth="216" frameHeight="99"/>
+</TextureAtlas>
